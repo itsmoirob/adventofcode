@@ -1,5 +1,5 @@
 const fs = require('fs');
-const fileURL = '../../../../input';
+const fileURL = './input';
 
 const checksum = new Promise((resolve, reject) => {
     let tempLine = [];
